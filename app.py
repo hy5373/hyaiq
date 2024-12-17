@@ -8,7 +8,7 @@ import joblib
 @st.cache_data
 def load_data():
     # Replace with the correct path to your dataset
-    return pd.read_csv("/content/preprocessed_air_quality_data.csv")
+    return pd.read_csv("https://raw.githubusercontent.com/hy5373/hyaiq/refs/heads/main/preprocessed_air_quality_data.csv")
 
 # Load the saved Random Forest model
 @st.cache_resource
